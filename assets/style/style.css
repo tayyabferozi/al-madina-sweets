@@ -57,17 +57,17 @@ header {
   background-color: #fdf8f2;
 }
 
-.top-bar .cta{
+.top-bar .cta {
   width: 20%;
 }
 
-.hamburger{
+.hamburger {
   margin-right: 13px;
   cursor: pointer;
   display: none;
 }
 
-.hamburger .line{
+.hamburger .line {
   display: block;
   width: 20px;
   height: 2px;
@@ -75,13 +75,13 @@ header {
   background-color: #110f29;
 }
 
-.brand{
+.brand {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.btn-search{
+.btn-search {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -131,12 +131,12 @@ nav {
   justify-content: space-around;
   width: 60%;
 }
-.intro-text h3{
+.intro-text h3 {
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
 }
 .intro-text h1 {
-  font-size: 4rem;
+  font-size: 3.8rem;
   font-weight: 700;
 }
 .intro-wrap img {
@@ -213,11 +213,11 @@ nav {
   border-radius: 5px;
 }
 
-#products .card img{
+#products .card img {
   width: 100%;
 }
 
-#products .card-content{
+#products .card-content {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -231,56 +231,56 @@ nav {
   transition: 0.4s ease;
 }
 
-#products .card:hover .card-content{
+#products .card:hover .card-content {
   opacity: 1;
   background-color: white;
 }
 
-#products .card .card-content h3{
+#products .card .card-content h3 {
   opacity: 0;
   transform: translateY(-0.8rem);
   transition: 0.6s ease;
 }
 
-#products .card:hover .card-content h3{
+#products .card:hover .card-content h3 {
   opacity: 1;
   transform: translateY(0);
 }
 
-#products .card .card-content h4{
+#products .card .card-content h4 {
   opacity: 0;
   transform: translateY(0.8rem);
   transition: 0.6s ease;
 }
 
-#products .card:hover .card-content h4{
+#products .card:hover .card-content h4 {
   opacity: 1;
   transform: translateY(0);
 }
 
-#cta{
+#cta {
   padding: 7% 5%;
 }
 
-#cta .cta-container{
+#cta .cta-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#cta .cta-container .item{
+#cta .cta-container .item {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
 }
 
-.cta-container .item > *{
+.cta-container .item > * {
   margin: 0 0.4rem;
 }
 
-#cta .icon{
-  width: 1rem
+#cta .icon {
+  width: 1rem;
 }
 
 #footer {
@@ -291,55 +291,55 @@ nav {
 }
 
 @media screen and (max-width: 992px) {
-  .cta{
+  .cta {
     display: none;
   }
 
-  .hamburger{
+  .hamburger {
     display: block;
   }
 
-  .navbar{
+  .navbar {
     margin: 0;
     line-height: 0;
     overflow: hidden;
     transition: 1s ease;
   }
 
-  .navbar.active{
+  .navbar.active {
     line-height: 3;
   }
 
-  .navbar.active a{
+  .navbar.active a {
     transition: padding 1s ease;
   }
 
-  .navbar hr.custom{
+  .navbar hr.custom {
     display: none;
   }
 
-  .navbar .nav{
+  .navbar .nav {
     flex-direction: column;
   }
 
-  .navbar .nav a{
+  .navbar .nav a {
     margin: 0;
     padding-left: calc(13px + 20px + 1px);
   }
 
-  .navbar .nav a{
+  .navbar .nav a {
     transition: background-color 0.3s ease;
   }
 
-  .navbar .nav a:hover{
+  .navbar .nav a:hover {
     background-color: #fff3e4;
   }
 
-  .btn-search{
+  .btn-search {
     width: auto;
   }
-  
-  .intro-wrap img{
+
+  .intro-wrap img {
     max-width: 21rem;
   }
 
@@ -347,33 +347,31 @@ nav {
     margin: 0 0.7rem;
     width: 50%;
   }
-  
+
   #products .card {
     margin: 2% 0;
   }
-
-
 }
 
-@media screen and (max-width: 768px){
-  .intro-wrap{
+@media screen and (max-width: 768px) {
+  .intro-wrap {
     flex-direction: column-reverse;
   }
 
-  .intro-text{
+  .intro-text {
     width: 100%;
     text-align: center;
   }
 
-  .intro-text .btn-red{
+  .intro-text .btn-red {
     margin: auto;
   }
 
-  .features-wrap{
+  .features-wrap {
     flex-direction: column;
   }
 
-  .features-wrap .card{
+  .features-wrap .card {
     margin: 0.4rem auto;
     width: 13rem;
   }
@@ -383,25 +381,26 @@ nav {
     flex-direction: column;
   }
 
-  .service-wrap{
+  .service-wrap {
     flex-direction: column;
   }
 
-  .service-text{
-    width: 100%
+  .service-text {
+    width: 100%;
   }
 
-.service-wrap img {
-  max-width: 21rem;
-}
+  .service-wrap img {
+    max-width: 21rem;
+  }
 
-  .cta-container{
+  .cta-container {
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 364px){
-  .intro-wrap img, .service-wrap img{
+@media screen and (max-width: 364px) {
+  .intro-wrap img,
+  .service-wrap img {
     width: 17rem;
   }
 }
